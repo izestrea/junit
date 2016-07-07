@@ -13,5 +13,17 @@ public class LargestTest{
         assertEquals(9, Largest.largest(new int[] {8, 9, 7}));
         assertEquals(9, Largest.largest(new int[] {7, 8, 9}));
     }
+    @Test
+    public void testDups(){
+        assertEquals(9, Largest.largest(new int[] {9, 7, 9, 8}));
+    }
+    @Test
+    public void testOne(){
+        assertEquals(1, Largest.largest(new int[] {1}));
+    }
+    @Test
+    public void testNegative(){
+        assertEquals(-7, Largest.largest(new int[] {-9, -8, -7}));
+    }
 
 }

@@ -6,7 +6,7 @@ public class Largest {
      * return the largest element in a list
      */
     public static int largest(int[] list){
-        int max = 0;
+        int max = Integer.MIN_VALUE;
 
         for(int index = 0; index <= list.length - 1; index++){
             if (list[index] > max) {
