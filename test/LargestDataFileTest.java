@@ -33,16 +33,16 @@ public class LargestDataFileTest {
             }
 //            get the expected value
             String val = st.nextToken();
-            int expected = Integer.valueOf(val).intValue();
-//            and the arguments to Larfest
-            ArrayList argumentList = new ArrayList();
+            int expected = Integer.valueOf(val);
+//            and the arguments to Largest
+            ArrayList<Integer> argumentList = new ArrayList<>();
             while (st.hasMoreTokens()) {
                 argumentList.add(Integer.valueOf(st.nextToken()));
             }
 //            transfer object list into native array
             int[] arguments = new int[argumentList.size()];
             for (int i = 0; i < argumentList.size(); i++) {
-                arguments[i] = ((Integer)argumentList.get(i)).intValue();
+                arguments[i] = argumentList.get(i);
             }
 //            and tun the assert
             Assert.assertEquals(expected, Largest.largest(arguments));
