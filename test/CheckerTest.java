@@ -16,7 +16,7 @@ public class CheckerTest {
         long t1 = cal.getTimeInMillis();
 
         env.setTime(t1);
-        Checker checker = new Checker();
+        Checker checker = new Checker(env);
 
 //        run the checker
         checker.reminder();
