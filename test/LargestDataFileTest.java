@@ -35,7 +35,7 @@ public class LargestDataFileTest {
             String val = st.nextToken();
             int expected = Integer.valueOf(val);
 //            and the arguments to Largest
-            ArrayList<Integer> argumentList = new ArrayList<>();
+            ArrayList<Integer> argumentList = new ArrayList();
             while (st.hasMoreTokens()) {
                 argumentList.add(Integer.valueOf(st.nextToken()));
             }

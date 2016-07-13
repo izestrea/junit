@@ -15,5 +15,8 @@
     <orderEntry type="library" name="junit:junit:4.11" level="project" />
     <orderEntry type="library" name="Maven: javax.servlet:javax.servlet-api:3.1.0" level="project" />
     <orderEntry type="library" name="Maven: org.mockito:mockito-all:1.10.19" level="project" />
+    <orderEntry type="library" name="Maven: commons-logging:commons-logging:1.2" level="project" />
+    <orderEntry type="library" name="Maven: mockobjects:mockobjects-core:0.09" level="project" />
+    <orderEntry type="library" name="Maven: mockobjects:mockobjects-jdk1.3-j2ee1.3:0.09" level="project" />
   </component>
 </module>

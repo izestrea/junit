@@ -1,4 +1,5 @@
 import org.junit.Assert;
+import org.junit.Test;
 
 import java.util.Calendar;
 
@@ -6,6 +7,7 @@ import java.util.Calendar;
  * Created on 0013, July, 13.
  */
 public class CheckerTest {
+    @Test
     public void testQuittingTime() {
         MockSystemEnvironment env = new MockSystemEnvironment();
         Calendar cal = Calendar.getInstance();
